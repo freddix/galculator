@@ -1,0 +1,10 @@
+diff -aurN galculator-2.1.2.orig/galculator.desktop.in galculator-2.1.2/galculator.desktop.in
+--- galculator-2.1.2.orig/galculator.desktop.in	2013-08-11 12:39:21.920339991 +0200
++++ galculator-2.1.2/galculator.desktop.in	2013-08-11 12:39:43.444149977 +0200
+@@ -6,5 +6,5 @@
+ Icon=galculator
+ Terminal=false
+ Type=Application
+-Categories=Utility;
++Categories=GTK;Utility;Calculator;
+ StartupNotify=true
