@@ -1,7 +1,7 @@
 Summary:	A GTK+ based scientific calculator
 Name:		galculator
 Version:	2.1.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://downloads.sourceforge.net/galculator/%{name}-%{version}.tar.bz2
@@ -29,7 +29,8 @@ different angle bases (DEG, RAD, GRAD).
 %{__aclocal}
 %{__autoconf}
 %{__automake}
-%configure
+%configure \
+	--disable-gtk3
 %{__make}
 
 %install
